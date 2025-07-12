@@ -12,7 +12,7 @@ This repository can be added as an **extension** in MakeCode.
 
 ## Tutorials in This Project
 
-[Lesson 2 - Introduction to microbit](microbit://#tutorial:github:cryloudjones/pxt-cagd1-custom-tutorials/l2-introduction-to-microbit)
+[Lesson 2 - Introduction to microbit](https://makecode.microbit.org/#tutorial:github:cryloudjones/pxt-cagd1-custom-tutorials/l2-introduction-to-microbit)
 ## Edit this project
 
 To edit this repository in MakeCode.

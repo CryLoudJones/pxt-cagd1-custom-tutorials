@@ -10,6 +10,9 @@ This repository can be added as an **extension** in MakeCode.
 * click on **Extensions** under the gearwheel menu
 * search for **https://github.com/cryloudjones/pxt-cagd1-custom-tutorials** and import
 
+## Tutorials in This Project
+
+[Lesson 2 - Introduction to microbit](https://makecode.microbit.org/#tutorial:github:cryloudjones/pxt-cagd1-custom-tutorials/l2-introduction-to-microbit)
 ## Edit this project
 
 To edit this repository in MakeCode.

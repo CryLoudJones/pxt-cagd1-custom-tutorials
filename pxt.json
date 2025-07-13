@@ -10,7 +10,8 @@
     "files": [
         "README.md",
         "main.ts",
-        "l2-introduction-to-microbit.md"
+        "l2-introduction-to-microbit.md",
+        "l3-variables-and-loops.md"
     ],
     "testFiles": [
         "test.ts"

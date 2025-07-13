@@ -14,6 +14,7 @@ This repository can be added as an **extension** in MakeCode.
 
 [Lesson 2 - Introduction to microbit](https://makecode.microbit.org/#tutorial:github:cryloudjones/pxt-cagd1-custom-tutorials/l2-introduction-to-microbit)  
 [Lesson 3 - Variables and Loops](https://makecode.microbit.org/#tutorial:github:cryloudjones/pxt-cagd1-custom-tutorials/l3-variables-and-loops)
+[Lesson 4 - Conditionals and Button Presses](https://makecode.microbit.org/#tutorial:github:cryloudjones/pxt-cagd1-custom-tutorials/l4-variables-and-loops)
 
 ## Edit this project
 

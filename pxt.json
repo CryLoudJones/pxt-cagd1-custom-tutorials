@@ -11,7 +11,8 @@
         "README.md",
         "main.ts",
         "l2-introduction-to-microbit.md",
-        "l3-variables-and-loops.md"
+        "l3-variables-and-loops.md",
+        "l4-variables-and-loops.md"
     ],
     "testFiles": [
         "test.ts"

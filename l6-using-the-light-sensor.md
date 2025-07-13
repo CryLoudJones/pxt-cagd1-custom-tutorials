@@ -60,11 +60,19 @@ basic.forever(function () {
   // Your brightness adjustment code goes here
 })
 ```
+## Step 5 - How LED Brightness Works 
+You use the led commands to adjust brightness inside the ``||led:Led||`` category 
+to adjust the brightness of the led lights. The values are (0-255), where 0 is very 
+dim and 255 is very bright.
 
 ## Step 5 - Adjust LED Brightness with Conditionals
 
 Inside the `forever` loop, use an ``||logic:if else||``structure to change 
-brightness based on light level:  
+brightness based on light level. Use ``||led:set brightness||`` found in 
+``||led:Led ... more||`` to set the brightness. 
+* Light level < 50 - set brightness to 255 - Bright in the dark
+* Light level < 150 - set brihtness to 150 - Dim in medium light 
+* Otherwise - set brightness to 100 - Very dim in bright light 
 Add inline comments for each condition to explain what's happening
 
 ```javascript

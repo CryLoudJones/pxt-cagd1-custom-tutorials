@@ -70,7 +70,7 @@ counter = 0
 ```
 
 ## Step 5 - Track State 
-Inside the button press block, increase the counter by 1 using ``||variables:change||``.  
+Inside the button press block, increase the counter by 1.  
   
 Inside your `if...else`, use ``||basic:show icon||`` to display different 
 icons based on the condition.
@@ -78,12 +78,13 @@ icons based on the condition.
 ```typescript
 // Run code when button A is pressed
 input.onButtonPressed(Button.A, function () {
-  // Check if counter is even
-  if (counter % 2 == 0) {
-  basic.showIcon(IconNames.Happy)
-  } else {
-    basic.showIcon(IconNames.Sad)
-  }
+    counter += 1
+    // Check if counter is even
+    if (counter % 2 == 0) {
+        basic.showIcon(IconNames.Happy)
+    } else {
+        basic.showIcon(IconNames.Sad)
+    }
 })
 ```
 ## Step 6 - Test in the Simulator

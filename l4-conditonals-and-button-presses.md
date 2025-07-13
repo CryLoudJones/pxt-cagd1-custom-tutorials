@@ -43,6 +43,9 @@ Add this comment above the if statement:
   
 `// Check if counter is even`
 
+**Note: ** You'll receive an error on this step. We will
+resolve it in the next step.
+
 ```typescript
 // Run code when button A is pressed
 input.onButtonPressed(Button.A, function () {
@@ -57,7 +60,7 @@ input.onButtonPressed(Button.A, function () {
 
 ## Step 4  - Add a Variable to Track State
 
-At the top of your code after the commen use ``||variables:let||`` to declare `counter`.  
+At the top of your code after the comment use ``||variables:let||`` to declare `counter`.  
 Then use ``||variables:equals||`` to initialize it.
 
 ```typescript
@@ -67,7 +70,8 @@ counter = 0
 ```
 
 ## Step 5 - Track State 
-Inside the button press block, increase the counter by 1.  
+Inside the button press block, increase the counter by 1 using ``||variables:change||``.  
+  
 Inside your `if...else`, use ``||basic:show icon||`` to display different 
 icons based on the condition.
 

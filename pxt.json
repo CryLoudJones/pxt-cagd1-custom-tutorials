@@ -13,7 +13,8 @@
         "l2-introduction-to-microbit.md",
         "l3-variables-and-loops.md",
         "l6-using-the-light-sensor.md",
-        "l4-conditonals-and-button-presses.md"
+        "l4-conditonals-and-button-presses.md",
+        "l7-temperature-sensor.md"
     ],
     "testFiles": [
         "test.ts"
